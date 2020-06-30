@@ -1,0 +1,42 @@
+@font-face {
+	src: url("file:res/CSS/PressStart2P-Regular.ttf");
+}
+.root {
+	-fx-font-family: "Press Start 2P";
+	-fx-font-size: 16px;
+}
+.button {
+	-fx-border-color: black;
+	-fx-border-width: 1;
+	-fx-border-radius: 5px;
+	-fx-background-color: transparent;
+	-fx-background-insets: 0px;
+	-fx-padding: 7px;
+	-fx-font-size: 24px; 
+	
+}
+.button:hover{
+	-fx-effect: dropshadow( gaussian ,#000000 , 8,0,0,0 );
+}
+.button:pressed{
+	-fx-effect: dropshadow( gaussian ,#000000 , 8,0,0,0 );
+	-fx-background-color: #A0A0A0;
+}
+#title-label {
+	-fx-font-size: 35px; 
+}
+#title-label:hover {
+	-fx-effect: dropshadow( gaussian ,#000000 , 8,0,0,0 );
+}
+#button-next {
+	-fx-background-radius: 5em;
+        -fx-min-width: 41px; 
+        -fx-min-height: 41px;
+        -fx-max-width: 41px; 
+        -fx-max-height: 41px; 
+        -fx-background-color: transparent;
+        -fx-background-insets: 0px; 
+        -fx-padding: 0px;
+        -fx-border-color: transparent;
+	-fx-border-width: 0;
+}
